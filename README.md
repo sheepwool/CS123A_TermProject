@@ -8,18 +8,19 @@ Creation Date: March 25, 2025
 This module builds a simple multi-layer perceptron to classify simulated mushrooms (UC Irvine "Secondary Mushroom" dataset) into two categories: edible or poisonous.
 Additionally, it also builds a single-layer perceptron to compare the performance of the two perceptrons to each other. This code is written in a Google Colaboratory notebook using python.
 
-## How to Run
 To view the code and outputs of the original run, see the file <b>CS123A_TermProject_DanaShakrovsky.ipynb</b>
 
-To run the code, there are three options: 
+## How to Run
 
-### Running in Google Colaboratory
+To run the code, there are <b>three</b> options: 
+
+### 1) Running in Google Colaboratory
 1. Navigate to the colab notebook: https://colab.research.google.com/github/sheepwool/CS123A_TermProject/blob/main/CS123A_TermProject_DanaShakrovsky.ipynb
 2. Go to File >  Save a copy in drive
 3. Close the original, go to the copy
 4. Go to Runtime > Run all
 
-### Using an IDE (such as PyCharm or VisualStudio)
+### 2) Using an IDE (such as PyCharm or VisualStudio)
 
 1. Clone the repository (should see a button saying “Clone Repository”)
     1. Enter the url https://github.com/sheepwool/CS123A_TermProject where indicated
@@ -27,7 +28,7 @@ To run the code, there are three options:
 3. Run the program either by clicking the run button or though the terminal: python mushroom_classification.py
 
 
-### Using Terminal (Windows OS)
+### 3) Using Command Prompt (Windows OS)
 ##### (note: these instructions were created and tested for Windows, therefore it is not guaranteed these will work for any other OS)
 #### Pre-requisites:
 Make sure you have <b>python3.9</b> installed on your device.
