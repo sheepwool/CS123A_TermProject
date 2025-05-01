@@ -27,7 +27,7 @@ To run the code, there are three options:
 3. Run the program either by clicking the run button or though the terminal: python mushroom_classification.py
 
 
-### Using Terminal (note: these instructions were made with … in mind)
+### Using Terminal (note: these instructions were created and tested for Windows, therefore there may be issues for other OS)
 ##### Pre-requisites:
 Make sure you have python3.9 installed on your device.
 
@@ -36,10 +36,9 @@ Start by changing the directory to where you want to download this project. (cd 
 ```
 git clone https://github.com/sheepwool/CS123A_TermProject
 cd CS123A_TermProject
-source packages.sh 
+start packages.exe 
 ```
-(Note: when executing source packages.sh, the Mac terminal may say “command not found: python” if you have a newer version of python. In that case, run this line: alias python=python3)
-
+After completing the above steps, you should now have entered the virtual python environment venv.
 #### Step 2: Run the code
 ```
 python mushroom_classification.py
