@@ -27,19 +27,20 @@ To run the code, there are three options:
 3. Run the program either by clicking the run button or though the terminal: python mushroom_classification.py
 
 
-### Using Terminal 
-##### (note: these instructions were created and tested for Windows, therefore there may be issues for other OS)
+### Using Terminal (Windows OS)
+##### (note: these instructions were created and tested for Windows, therefore it is not guaranteed these will work for any other OS)
 #### Pre-requisites:
-Make sure you have python3.9 installed on your device.
+Make sure you have <b>python3.9</b> installed on your device.
 
 #### Step 1: Clone the repository and prepare venv
 Start by changing the directory to where you want to download this project. (cd /directory/...) Then run the following:
 ```
 git clone https://github.com/sheepwool/CS123A_TermProject
 cd CS123A_TermProject
-python_venv.cmd 
+pythonenv.cmd
+
 ```
-After completing the above steps, you should now have entered the virtual python environment venv.
+After completing the above steps, you should now have entered the virtual python environment <b>venv</b>.
 
 #### Step 2: Installing packages
 Execute the following commands in venv:
@@ -50,6 +51,7 @@ pip install pandas
 pip install tensorflow
 pip install numpy
 pip install matplotlib
+
 ```
 
 #### Step 3: Run the code
