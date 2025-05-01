@@ -1,7 +1,5 @@
 python -m venv venv
-source venv/bin/activate
-
-pip install python==3.10
+venv\Scripts\activate.bat
 
 pip install ucimlrepo
 pip install scikit-learn
