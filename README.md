@@ -14,22 +14,37 @@ To view the code and outputs of the original run, see the file <b>CS123A_TermPro
 
 To run the code, there are <b>three</b> options: 
 
-### 1) Running in Google Colaboratory
+### Option 1: Running in Google Colaboratory
 1. Navigate to the colab notebook: https://colab.research.google.com/github/sheepwool/CS123A_TermProject/blob/main/CS123A_TermProject_DanaShakrovsky.ipynb
 2. Go to File >  Save a copy in drive
 3. Close the original, go to the copy
 4. Go to Runtime > Run all
 
-### 2) Using an IDE (such as PyCharm or VisualStudio)
+### Option 2: Using an IDE (such as PyCharm or VisualStudio)
+#### Pre-requisites:
+Make sure you have <b>python3.9</b> installed on your device.
 
-1. Clone the repository (should see a button saying “Clone Repository”)
-    1. Enter the url https://github.com/sheepwool/CS123A_TermProject where indicated
-2. Open the terminal and run source packages.sh 
-3. Run the program either by clicking the run button or though the terminal: python mushroom_classification.py
+#### Step 1: Clone the repository (should see a button saying “Clone Repository”)
+Enter the url https://github.com/sheepwool/CS123A_TermProject where indicated
+#### Step 2: Open the terminal and install packages
+Run the following commands to install:
+```
+pip install ucimlrepo
+pip install scikit-learn
+pip install pandas
+pip install tensorflow
+pip install numpy
+pip install matplotlib
 
+```
+#### Step 3: Run the program 
+Either by clicking the run button or though the terminal
+```
+python mushroom_classification.py
+```
 
-### 3) Using Command Prompt (Windows OS)
-##### (note: these instructions were created and tested for Windows, therefore it is not guaranteed these will work for any other OS)
+### Option 3: Using Command Prompt (Windows OS)
+##### (note: these instructions were created and tested for Windows, therefore it is not guaranteed they will work for any other OS)
 #### Pre-requisites:
 Make sure you have <b>python3.9</b> installed on your device.
 
